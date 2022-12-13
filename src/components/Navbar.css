@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Mulish&family=Oswald:wght@500&family=Patrick+Hand&family=Roboto:ital,wght@1,100&family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+
+}
+
+
+    
+
+
+
+nav{
+    display:flex;
+    align-items: centre;
+    justify-content: space-between;
+    height: 13vh;
+    background-color: #24252A;
+    padding-top: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.logo{
+    font-family: 'Zen Dots', cursive;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+
+span{
+    color : #ea1538;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+button{
+    border: none;
+    background-color:#ea1538 ;
+    margin-right: 20px;
+    padding: 12px 30px;
+    height: 50px;
+    width: 150px;
+    font-family: 'IBM Plex Mono', monospace;    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+.dropdown_menu{
+    display: none;
+}
+
+
+nav ul li:hover > .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100% ;
+    background-color: #24252A;
+
+}
+
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+
+}
+
+.dropdown_menu ul li{
+    width: 150px ;
+    padding: 10px;
+}
+
+.fas {
+    float:right;
+    margin-left: 10px ;
+    padding-top: 3px;
+}
+
+button:hover{
+    color: #24252A;
+}

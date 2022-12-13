@@ -1,0 +1,113 @@
+
+.home
+{
+    /* background-color: #24242b; */
+    width: 100vw;
+    min-height: 82vh;
+    background-image:url(./my-bg-cover.jpg);
+    background-size: cover;
+    background-position: center;
+   
+   
+    
+    
+}
+
+.content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+h4{
+    margin: auto;
+    padding: auto;
+
+}
+
+.newsletter form{
+    margin-top: 30px;
+    max-width: 100%;
+    width: 380px;
+    position: relative;
+
+}
+
+.newsletter form input:first-child{
+ display : inline-block;
+ width : 100%;
+ padding: 14px 130px 14px 15px;
+ border: 2px solid #24242b;
+ outline: none;
+ border-radius: 30px;
+
+
+
+}
+
+.newsletter form input:last-child{
+    display : inline-block;
+    padding: 10px 20px;
+    border: none ;
+    outline: none;
+    position:absolute;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #ea1538;
+    font-weight: bold;
+    color: white;
+    bottom:5px;
+    left:265px;
+}
+
+.favourites form{
+    margin-top: 70px;
+    max-width: 100%;
+    width: 380px;
+    position: relative;
+
+}
+
+.favourites form input:first-child{
+    display : inline-block;
+    width : 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #24242b;
+    outline: none;
+    border-radius: 30px;
+   
+   
+   
+   }
+   
+.favourites form input:last-child{
+       display : inline-block;
+       padding: 10px 20px;
+       border: none ;
+       outline: none;
+       position:absolute;
+       margin-top: 10px;
+       border-radius: 30px;
+       background-color: #ea1538;
+       font-weight: bold;
+       color: white;
+   }
+
+.newsletter form input:last-child:hover{
+color: #24242b;
+}
+
+
+
+.fan{
+    color:#798cb2;
+    font-weight: bold;
+    
+}
+
+.Email{
+ margin-right: 20px;
+}

@@ -1,0 +1,55 @@
+
+.premierleague{
+    background-color: #24242b;
+    width: 100%;
+    min-height: 82vh;
+    /* background-image:url(./my-bg-cover.jpg); */
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+.tabs{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+
+}
+
+
+.tab-matches{
+width: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:  #ea1538;
+height:50px;
+border-right:10px solid #24242b;
+
+
+}
+
+.tab-matches:hover{
+    cursor: pointer;
+}
+
+.tab-standings{
+   width: 300px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:  #ea1538;
+   height:50px;
+   
+
+}
+.tab-standings:hover{
+    cursor: pointer;
+}
