@@ -1,0 +1,71 @@
+.contact{
+    /* background-color: #24242b; */
+    width: 100vw;
+    min-height: 82vh;
+    background-image:url(./my-bg-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    color:rgb(128, 81, 110);
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: large;
+
+   
+    
+    
+}
+
+.contact form .user-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+form .user-details .input-box{
+    width:calc(100%/2 - 20px);
+    margin: 20px 0 12px 0;
+}
+
+.user-details .input-box .details{
+font-weight: bold;
+margin-bottom: 5px;
+display: block;
+
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 50%;
+    outline : none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 2px;
+    transition : all 0.3s ease;
+
+}
+
+form .gender-details{
+    color:rgb(128, 81, 110); 
+    
+}
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(128, 81, 110);
+}
+
+form .gender-details .category{
+    width: 80%;
+    display: flex;
+    margin: 14px 0;
+    justify-content: space-between;
+    
+
+
+}

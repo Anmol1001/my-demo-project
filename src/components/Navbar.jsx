@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom';
 
-function Navbar(){
+function Navbar(props){
         const [links, setLinks]= useState([]);
         useEffect(() => {
           const navs = [{name: "Premier League", path:"/premierleague"},
@@ -22,7 +22,7 @@ return (
     <div className="menu">
         
     <nav>
-        <label className='logo'>Live <br /><span>Football</span></label>
+        <label className='logo'>{props.title} <br /><span>{props.title1}</span></label>
         <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
@@ -48,7 +48,7 @@ return (
                 </li>
             
         </ul>
-        <button type="button">Subscribe</button>
+        <button type="button">Login</button>
     </nav>
     </div>
 

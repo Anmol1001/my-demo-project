@@ -7,8 +7,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
-import Matches from './components/Matches';
-import Leagues from './components/Leagues';
 import Premierleague from './components/Premierleague';
 import Laliga from './components/Laliga';
 import Ligue1 from './components/Ligue1';
@@ -21,7 +19,7 @@ function App() {
   return (
     <>
     
-      <Navbar/>
+      <Navbar title='Live' title1='Football'/>
     <Routes>
      <Route path='/' element = {<Home/>}/>
      <Route path='/about' element = {<About/>}/>

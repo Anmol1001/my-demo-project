@@ -1,0 +1,13 @@
+.about
+{
+    /* background-color: #24242b; */
+    width: 100vw;
+    min-height: 82vh;
+    background-image:url(./my-bg-cover.jpg);
+    background-size: cover;
+    background-position: center;
+   
+   
+    
+    
+}
