@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className='footer'>
-        <p>Live <span>Football</span> 2021 <span className='copyright'>
+        <p>Live <span className='color'>Football</span> 2021 <span className='copyright'>
             &copy;</span></p>
     </div>
   )

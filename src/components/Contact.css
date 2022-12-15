@@ -5,7 +5,7 @@
     background-image:url(./my-bg-cover.jpg);
     background-size: cover;
     background-position: center;
-    color:rgb(128, 81, 110);
+    color:white;
     box-sizing: border-box;
     display:flex;
     justify-content: center;
@@ -52,12 +52,15 @@ display: block;
 
 form .gender-details{
     color:rgb(128, 81, 110); 
-    
+    font-weight: bold;
+    font-size: large;
 }
 form .gender-details .gender-title{
     font-size: 20px;
     font-weight: 500;
-    color:rgb(128, 81, 110);
+    color:white;
+    font-weight: bold;
+    
 }
 
 form .gender-details .category{
@@ -66,6 +69,35 @@ form .gender-details .category{
     margin: 14px 0;
     justify-content: space-between;
     
+    
 
 
+}
+
+.gender-details .category label{
+    display: flex;
+    align-items: center;
+    color:white;
+
+}
+
+.gender-details .category .dot{
+    height: 18px;
+    width: 18px;
+    background: rgb(192, 169, 169);
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    border-color: rgb(128, 81, 110);
+    background:rgb(192, 169, 169) ;
+}
+
+form input[type="radio"]{
+    display: none;
 }

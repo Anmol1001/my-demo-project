@@ -22,7 +22,7 @@ return (
     <div className="menu">
         
     <nav>
-        <label className='logo'>{props.title} <br /><span>{props.title1}</span></label>
+        <label className='logo'>{props.title} <br /><span className='color'>{props.title1}</span></label>
         <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>

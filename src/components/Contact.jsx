@@ -82,20 +82,23 @@ name="confirmpassword" id='confirmpassword' placeholder='Confirm your password' 
 </div>
 </div>
 <div className="gender-details">
+    <input type="radio" name='gender' id='dot-1' />
+    <input type="radio" name='gender' id='dot-2' />
+    <input type="radio" name='gender' id='dot-3' />
     <span className='gender-title'>Gender</span>
     <div className="category">
-        <label htmlFor="">
+        <label htmlFor="dot-1">
             <span className="dot one"></span>
             <span className="gender"> Male</span>
         </label>
        
-        <label htmlFor="">
-            <span className="dot one"></span>
+        <label htmlFor="dot-2">
+            <span className="dot two"></span>
             <span className="gender"> Female</span>
         </label>
         
-        <label htmlFor="">
-            <span className="dot one"></span>
+        <label htmlFor="dot-3">
+            <span className="dot three"></span>
             <span className="gender"> Prefer not to say</span>
         </label>
     </div>
