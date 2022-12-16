@@ -103,7 +103,9 @@ name="confirmpassword" id='confirmpassword' placeholder='Confirm your password' 
         </label>
     </div>
 </div>
-<button type='submit' class="submit">Submit</button>
+    <div className='btn'>
+<button type='submit' className="submit">Submit</button>
+</div>
 
 
 
